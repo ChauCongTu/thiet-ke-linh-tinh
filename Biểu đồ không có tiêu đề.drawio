@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T09:22:48.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BE95FZtltnmZ7TjLLiS9" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-29T09:25:12.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qdZmaYCQ6K7_itNaPcWG" version="20.3.7" type="github">
   <diagram id="Z0K4d841dN_GdC7LYWth" name="Trang-1">
     <mxGraphModel dx="1278" dy="588" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="aPQ3o3ZtKDtd-mwTrnXC-607" value="Xem khuyến mãi" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="781" y="344" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aPQ3o3ZtKDtd-mwTrnXC-609" value="Đặt hàng" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aPQ3o3ZtKDtd-mwTrnXC-609" value="Đặt cọc" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="733" y="277" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aPQ3o3ZtKDtd-mwTrnXC-611" value="Quản lý người dùng" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -193,6 +193,15 @@
         </mxCell>
         <mxCell id="2cvSlp15uIqI2tOHit0d-17" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="476" y="264" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F-Xn6fsUrAzU0U1Dlo_c-1" value="Thanh toán" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="607" y="239" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-Xn6fsUrAzU0U1Dlo_c-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.592;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aPQ3o3ZtKDtd-mwTrnXC-609" target="F-Xn6fsUrAzU0U1Dlo_c-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="754" y="392" as="sourcePoint" />
+            <mxPoint x="804" y="342" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
