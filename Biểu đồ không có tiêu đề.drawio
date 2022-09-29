@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T10:47:27.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tixNo0OS-2O37fPpXq1w" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-29T10:50:33.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cply9WWIweI7Zct_uxzE" version="20.3.7" type="github">
   <diagram id="Z0K4d841dN_GdC7LYWth" name="Trang-1">
     <mxGraphModel dx="1278" dy="588" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
             <mxPoint x="804" y="342" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F-Xn6fsUrAzU0U1Dlo_c-3" value="Quản lý thông tin cá nhân" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F-Xn6fsUrAzU0U1Dlo_c-3" value="Quản lý đơn hàng cá nhân" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="296" width="139" height="48" as="geometry" />
         </mxCell>
         <mxCell id="F-Xn6fsUrAzU0U1Dlo_c-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F-Xn6fsUrAzU0U1Dlo_c-3">
