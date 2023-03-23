@@ -1,14 +1,16 @@
+CREATE DATABASE real_estate_db;
+USE real_estate_db;
 -- Dự án bất động sản
 CREATE TABLE collections (
     collections_id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
     head_bg VARCHAR(100) NOT NULL,
-    name VARCHAR(100) NOT NULL,
-    slug VARCHAR(100) NOT NULL,
-    Overview TEXT NOT NULL,
-    Video VARCHAR(100) NOT NULL,
-    Introduction TEXT NOT NULL,
-    Information TEXT NOT NULL,
-    Location VARCHAR(300) NOT NULL
+    collections_name VARCHAR(100) NOT NULL,
+    collections_slug VARCHAR(100) NOT NULL,
+    overview TEXT NOT NULL,
+    video VARCHAR(100) NOT NULL,
+    introduction TEXT NOT NULL,
+    information TEXT NOT NULL,
+    location VARCHAR(300) NOT NULL
 );
 CREATE TABLE collections_galery (
     collections_id INT NOT NULL,
@@ -21,8 +23,8 @@ CREATE TABLE collections_galery (
 CREATE TABLE products (
     products_id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
     head_bg VARCHAR(100) NOT NULL,
-    name VARCHAR(100) NOT NULL,
-    slug VARCHAR(100) NOT NULL,
+    products_name VARCHAR(100) NOT NULL,
+    products_slug VARCHAR(100) NOT NULL,
     area VARCHAR(400) NOT NULL,
     information TEXT NOT NULL,
     desciption TEXT NOT NULL,
@@ -43,8 +45,8 @@ CREATE TABLE products_galery (
 -- Tin tức bất động sản
 CREATE TABLE news(
     news_id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
-    name VARCHAR(200) NOT NULL,
-    slug VARCHAR(200) NOT NULL,
+    news_name VARCHAR(200) NOT NULL,
+    news_slug VARCHAR(200) NOT NULL,
     content TEXT NOT NULL,
     thumbnail VARCHAR(100) NOT NULL,
     postdate DATETIME NOT NULL,
@@ -62,23 +64,14 @@ CREATE TABLE news_comment(
 -- Liên hệ + đăng ký thông tin
 CREATE TABLE contact(
     contact_id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
-    name VARCHAR(100) NOT NULL,
+    fullname VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     phone VARCHAR(11) NOT NULL,
-    message VARCHAR(500) NOT NULL,
-    isSeen INT NOT NULL
+    conMessage VARCHAR(500) NOT NULL,
+    isSeen INT NOT NULL,
+	isSaved INT NOT NULL
 );
 CREATE TABLE subscribed(
     subscribed_id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
     email VARCHAR(100) NOT NULL
-);
--- Người dùng
-CREATE TABLE users(
-    user_id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
-    username VARCHAR(100) NOT NULL,
-    password VARCHAR(64) NOT NULL,
-    display_name VARCHAR(100) NOT NULL,
-    gender INT NOT NULL,
-    address VARCHAR(100) NOT NULL,
-    avatar VARCHAR(100) NOT NULL
 );
