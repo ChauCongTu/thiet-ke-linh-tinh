@@ -1,5 +1,3 @@
-CREATE DATABASE real_estate_db;
-USE real_estate_db;
 -- Dự án bất động sản
 CREATE TABLE collections (
     collections_id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
@@ -29,7 +27,7 @@ CREATE TABLE products (
     address NVARCHAR(100) NOT NULL,
     price DECIMAL NOT NULL,
     type INT NOT NULL,
-    view INT NOT NULL,
+    viewCount INT NOT NULL,
     isHot BIT NOT NULL,
     collections_id INT NOT NULL, 
     
