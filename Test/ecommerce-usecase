@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T12:47:55.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="QE0gQrqdc-eaGPaTmSbK" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-20T12:48:52.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="90-ieuyYhRNcyORKzDdB" version="21.3.2" type="github">
   <diagram name="Trang-1" id="sdEBZeV7HSzizotPm22t">
-    <mxGraphModel dx="1105" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="840" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lmwP3fxVPnVCiXAs4HUL-1" value="Guest" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="lmwP3fxVPnVCiXAs4HUL-1" value="Khách" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="185" y="220" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lmwP3fxVPnVCiXAs4HUL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="lmwP3fxVPnVCiXAs4HUL-2">
@@ -12,19 +12,20 @@
             <mxPoint x="200" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lmwP3fxVPnVCiXAs4HUL-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="lmwP3fxVPnVCiXAs4HUL-2" value="Ngưởi dùng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="185" y="420" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lmwP3fxVPnVCiXAs4HUL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="lmwP3fxVPnVCiXAs4HUL-4">
+        <mxCell id="lmwP3fxVPnVCiXAs4HUL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="510" as="targetPoint" />
+            <mxPoint x="934" y="480" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="934" y="600" />
               <mxPoint x="200" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lmwP3fxVPnVCiXAs4HUL-4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="lmwP3fxVPnVCiXAs4HUL-4" value="Quản trị viên" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="919" y="390" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lmwP3fxVPnVCiXAs4HUL-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lmwP3fxVPnVCiXAs4HUL-5" target="lmwP3fxVPnVCiXAs4HUL-1">
