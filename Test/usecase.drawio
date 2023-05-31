@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T03:08:33.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.3" etag="bmcVofDvLsNWllKde_tr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T06:29:20.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Aj0si0T1sFgY2ielpzCA" version="21.3.3" type="github">
   <diagram name="Trang-1" id="Rtv8dVOtGINkOgFMuuK0">
-    <mxGraphModel>
+    <mxGraphModel dx="404" dy="208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KmCH8Xh90aq2N9KF85zI-1" value="Moderator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmCH8Xh90aq2N9KF85zI-2" value="Guest" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmCH8Xh90aq2N9KF85zI-3" value="Content Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmCH8Xh90aq2N9KF85zI-4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmCH8Xh90aq2N9KF85zI-5" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
