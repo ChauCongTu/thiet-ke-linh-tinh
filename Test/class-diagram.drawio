@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T05:03:32.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="SnPY3rfvhp0oUACqJlib" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-21T05:06:29.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="UGTZ_0NVB2I4LqgFCY1P" version="22.0.5" type="github">
   <diagram name="Trang-1" id="v32yUExewYINgWVE51j1">
     <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry y="78" width="160" height="92" as="geometry" />
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-9" value="Flíghts" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="607" y="114" width="160" height="320" as="geometry" />
+          <mxGeometry x="472" y="110" width="160" height="320" as="geometry" />
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-10" value="+ flight_id: int&lt;br&gt;+ departure_point: string&lt;br&gt;+&amp;nbsp;destination: string&lt;br&gt;+&amp;nbsp;departure_airport: int&lt;br&gt;+&amp;nbsp;destination_airport: int&lt;br&gt;+&amp;nbsp;departure_time: datetime&lt;br&gt;+&amp;nbsp;arrival_time: datetime&lt;br&gt;+&amp;nbsp;flight_date: date&lt;br&gt;+&amp;nbsp;total_tickets: int&lt;br&gt;+&amp;nbsp;remaining_tickets: int&lt;br&gt;+&amp;nbsp;transits: int&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;+&amp;nbsp;aircraft_id: int&lt;br&gt;+&amp;nbsp;status: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-9">
           <mxGeometry y="26" width="160" height="199" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="233" width="160" height="87" as="geometry" />
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-13" value="Transits" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="872" y="114" width="160" height="182" as="geometry" />
+          <mxGeometry x="676" y="110" width="160" height="182" as="geometry" />
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-14" value="+ transit_id: int&lt;br&gt;+&amp;nbsp;transit_airport_id: int&lt;br&gt;+ filght_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-13">
           <mxGeometry y="26" width="160" height="56" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry y="90" width="160" height="92" as="geometry" />
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-17" value="Airports" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="872" y="330" width="160" height="222" as="geometry" />
+          <mxGeometry x="676" y="326" width="160" height="222" as="geometry" />
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-18" value="+ airport_id: int&lt;br&gt;+&amp;nbsp;airport_name: string&lt;br&gt;+&amp;nbsp;coordinates: string&lt;br&gt;+&amp;nbsp;address: string&lt;br&gt;+&amp;nbsp;city: string&lt;br&gt;+ country: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-17">
           <mxGeometry y="26" width="160" height="96" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry y="132" width="160" height="101" as="geometry" />
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-25" value="Tickets" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="604" y="460" width="160" height="224" as="geometry" />
+          <mxGeometry x="469" y="456" width="160" height="224" as="geometry" />
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-26" value="+ ticket_id: int&lt;br&gt;+&amp;nbsp;flight_id: int&lt;br&gt;+&amp;nbsp;ticket_class: int&lt;br&gt;+&amp;nbsp;price_vnd: float&lt;br&gt;+&amp;nbsp;price_usd: float&lt;br&gt;+&amp;nbsp;seat_numb: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-25">
           <mxGeometry y="26" width="160" height="98" as="geometry" />
@@ -75,6 +75,18 @@
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-28" value="+ getAll(): List&amp;lt;Tickets&amp;gt;&lt;br&gt;+ getByID(int):&amp;nbsp;Tickets&lt;br&gt;+ add(Tickets): boolean&lt;br&gt;+ update(Tickets): boolean&lt;br&gt;+ delete(int): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-25">
           <mxGeometry y="132" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="25dR3GwoNTmbDjpRFgTJ-29" value="Transactions" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="110" width="160" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="25dR3GwoNTmbDjpRFgTJ-30" value="+&amp;nbsp;transaction_id: int&lt;br&gt;+&amp;nbsp;booking_code: string&lt;br&gt;+&amp;nbsp;ticket_id: int&lt;br&gt;+&amp;nbsp;customer_id: int&lt;br&gt;+&amp;nbsp;note: string&lt;br&gt;+&amp;nbsp;booking_date: datetime&lt;br&gt;+&amp;nbsp;performed_by: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-29">
+          <mxGeometry y="26" width="160" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="25dR3GwoNTmbDjpRFgTJ-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-29">
+          <mxGeometry y="137" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="25dR3GwoNTmbDjpRFgTJ-32" value="+ getAll(): List&amp;lt;Transactions&amp;gt;&lt;br&gt;+ getByID(int):&amp;nbsp;Transactions&lt;br&gt;+ add(Transactions): boolean&lt;br&gt;+ update(Transactions): boolean&lt;br&gt;+ delete(int): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-29">
+          <mxGeometry y="145" width="160" height="129" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
