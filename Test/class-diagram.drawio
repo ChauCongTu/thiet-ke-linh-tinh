@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T05:00:51.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="FQHuORqfDJszap-fcle-" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-21T05:03:32.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="SnPY3rfvhp0oUACqJlib" version="22.0.5" type="github">
   <diagram name="Trang-1" id="v32yUExewYINgWVE51j1">
     <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -63,6 +63,18 @@
         </mxCell>
         <mxCell id="25dR3GwoNTmbDjpRFgTJ-24" value="+ getAll(): List&amp;lt;Airplanes&amp;gt;&lt;br&gt;+ getByID(int):&amp;nbsp;Airplanes&lt;br&gt;+ add(Airplanes): boolean&lt;br&gt;+ update(Airplanes): boolean&lt;br&gt;+ delete(int): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-21">
           <mxGeometry y="132" width="160" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="25dR3GwoNTmbDjpRFgTJ-25" value="Tickets" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="604" y="460" width="160" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="25dR3GwoNTmbDjpRFgTJ-26" value="+ ticket_id: int&lt;br&gt;+&amp;nbsp;flight_id: int&lt;br&gt;+&amp;nbsp;ticket_class: int&lt;br&gt;+&amp;nbsp;price_vnd: float&lt;br&gt;+&amp;nbsp;price_usd: float&lt;br&gt;+&amp;nbsp;seat_numb: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-25">
+          <mxGeometry y="26" width="160" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="25dR3GwoNTmbDjpRFgTJ-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-25">
+          <mxGeometry y="124" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="25dR3GwoNTmbDjpRFgTJ-28" value="+ getAll(): List&amp;lt;Tickets&amp;gt;&lt;br&gt;+ getByID(int):&amp;nbsp;Tickets&lt;br&gt;+ add(Tickets): boolean&lt;br&gt;+ update(Tickets): boolean&lt;br&gt;+ delete(int): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="25dR3GwoNTmbDjpRFgTJ-25">
+          <mxGeometry y="132" width="160" height="92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
